@@ -1,0 +1,4 @@
+baseURL = 'https://light-tech-talk.com/'
+languageCode = 'en-us'
+title = 'Light Tech Talk'
+theme = 'ananke'
