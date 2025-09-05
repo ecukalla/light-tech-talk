@@ -1,0 +1,19 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1><a class="sidebar-nav-item" href='{{ "/" | relURL }}'>{{ .Site.Title }}</a></h1>
+      {{ with .Site.Params.description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href='{{ "/" | relURL }}'>Home</a>
+      {{ with .Site.Menus.main }}
+        {{ range . }}
+          <a class="sidebar-nav-item" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </nav>
+  </div>
+</aside>

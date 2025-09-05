@@ -1,4 +1,19 @@
 baseURL = 'light-tech-talk.com/'
 languageCode = 'en-us'
 title = 'Light Tech Talk'
-theme = 'ananke'
+theme = 'hyde'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Enable rendering raw HTML in Markdown to avoid "Raw HTML omitted" warnings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = """
+No complexity—just LTT!<br>Light, simple short stories which will not in any case attach you to my notes.
+<br>*By Edmond Cukalla"""

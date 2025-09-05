@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Light Tech Talk</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Light Tech Talk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Sep 2025 10:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grimcat e orkides</title>
+      <link>//localhost:1313/posts/grimcat-e-orkides/</link>
+      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/grimcat-e-orkides/</guid>
+      <description>&lt;p&gt;Po vija në maj, siç të kisha premtuar se do të vija çdo tre javë.&lt;br&gt;&#xA;Ajo që më mbante në biseda në momentet e tua të fundit ishte Krista, si një paralajmërim që do të ishe gjithmonë me mua.&lt;/p&gt;&#xA;&lt;p&gt;Gjatë atyre momenteve të fundit kisha të njëjtën fuqi dhe veprim që të kam parë tek ty këto 20 vite. As nuk e kisha menduar çfarë mund të ndodhte dhe ndërkohë dija çdo moment. Atë që kisha parë nga jashtë tek ty tani ti ma kishe dhënë të gjithën. Çdo moment në biseda apo veprim ti më jepje esencën e të qenurit dhe gjëra që s&amp;rsquo;mund t&amp;rsquo;i pyesje tjetër njeriut në vazhdim ti mi shpjegoje me veprim.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
