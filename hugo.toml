@@ -15,5 +15,21 @@ theme = 'hyde'
 
 [params]
   description = """
-No complexity—just LTT!<br>Light, simple short stories which will not in any case attach you to my notes.
+No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my notes.
 <br>*By Edmond Cukalla"""
+
+# Make all links absolute using baseURL
+canonifyURLs = true
+
+# Serve a proper robots.txt
+enableRobotsTXT = true
+
+# Optional but nice: clean permalinks for posts
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+# Optional: tweak sitemap defaults (Hugo creates one by default)
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
