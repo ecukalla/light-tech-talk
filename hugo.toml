@@ -1,12 +1,7 @@
-baseURL = 'light-tech-talk.com/'
+baseURL = 'https://light-tech-talk.com/'
 languageCode = 'en-us'
 title = 'Light Tech Talk'
 theme = 'hyde'
-
-# Use Hugo Modules to fetch the theme when building in CI
-[module]
-  [[module.imports]]
-    path = "github.com/spf13/hyde"
 
 [taxonomies]
   tag = "tags"
