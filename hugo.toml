@@ -15,7 +15,7 @@ theme = 'hyde'
 
 [params]
   description = """
-No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my notes.
+No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my writing.
 <br>*By Edmond Cukalla"""
 
 # Make all links absolute using baseURL
