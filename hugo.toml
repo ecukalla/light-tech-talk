@@ -17,6 +17,8 @@ theme = 'hyde'
   description = """
 No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my writing.
 <br>*By Edmond Cukalla"""
+  [params.meta]
+    favicon = false
 
 # Make all links absolute using baseURL
 canonifyURLs = true
