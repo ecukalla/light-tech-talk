@@ -28,7 +28,7 @@ enableRobotsTXT = true
 
 # Optional but nice: clean permalinks for posts
 [permalinks]
-  posts = "/:year/:month/:slug/"
+  posts = "/:slug/"
 
 # Optional: tweak sitemap defaults (Hugo creates one by default)
 [sitemap]
