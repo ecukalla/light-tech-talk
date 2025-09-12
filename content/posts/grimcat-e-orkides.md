@@ -6,7 +6,7 @@ tags = ["shqip", "albanian", "essay"]
 +++
 
 [//]: # (<h1>Grimcat e orkides nga Edmond Cukalla</h1>)
-Po vija në maj, siç të kisha premtuar se do të vija çdo tre javë.<br>
+Po vija në maj, siç të kisha premtuar se do të vija çdo tri javë.<br>
 Ajo që më mbante në biseda në momentet e tua të fundit ishte Krista, si një paralajmërim që do të ishe gjithmonë me mua.
 
 Gjatë atyre momenteve të fundit kisha të njëjtën fuqi dhe veprim që të kam parë tek ty këto 20 vite. As nuk e kisha menduar çfarë mund të ndodhte dhe ndërkohë dija çdo moment. Atë që kisha parë nga jashtë tek ty tani ti ma kishe dhënë të gjithën. Çdo moment në biseda apo veprim ti më jepje esencën e të qenurit dhe gjëra që s'mund t'i pyesje tjetër njeriut në vazhdim ti mi shpjegoje me veprim.
