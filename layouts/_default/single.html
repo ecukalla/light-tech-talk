@@ -1,0 +1,49 @@
+{{ define "main" }}
+<style>
+  /* Scope fixes to the post view only */
+  article.post-view {
+    max-width: 860px;        /* adjust if you prefer wider/narrower */
+    margin: 0 auto;          /* center the post */
+    padding: 0 1rem;         /* side breathing room */
+    clear: both;             /* avoid being pushed by sidebars */
+  }
+  /* Ensure internal blocks don't inherit theme floats/widths */
+  article.post-view header,
+  article.post-view .content,
+  article.post-view .post-footer {
+    float: none !important;
+    width: auto !important;
+  }
+  /* Make the reading line-length comfortable; center the text column */
+  article.post-view .content {
+    max-width: 70ch;         /* ~70 characters per line for readability */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Share row layout at the bottom */
+  article.post-view .post-footer .post-share {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+</style>
+
+<article class="post-view">
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <section class="content">
+    {{ .Content }}
+  </section>
+
+  <footer class="post-footer">
+    {{ partial "share.html" . }}
+  </footer>
+</article>
+{{ end }}
