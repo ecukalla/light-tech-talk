@@ -1,8 +1,10 @@
 +++
 title = "Grimcat e orkides"
+description = "A short Albanian essay about the connection and the road to `Grimcat e orkides`"
 date = 2025-09-05T10:00:00Z
 draft = false
-tags = ["shqip", "albanian", "essay"]
+tags = ["shqip", "albanian", "essay", "spiritual", "personal"]
+author = "Edmond Cukalla"
 +++
 
 [//]: # (<h1>Grimcat e orkides nga Edmond Cukalla</h1>)
