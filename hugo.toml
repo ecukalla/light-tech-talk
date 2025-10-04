@@ -39,6 +39,6 @@ enableRobotsTXT = true
 [menus]
     main = [
         {Name = "X", URL = "https://x.com/ecukalla"},
-        {Name = "LinkedIn", URL = "https://strava.com/athletes/ecukalla"},
-        {Name = "Strava", URL = "https://www.linkedin.com/in/ecukalla"},
+        {Name = "LinkedIn", URL = "https://www.linkedin.com/in/ecukalla"},
+        {Name = "Strava", URL = "https://strava.com/athletes/ecukalla"},
     ]
