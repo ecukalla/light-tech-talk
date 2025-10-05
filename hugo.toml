@@ -41,4 +41,5 @@ enableRobotsTXT = true
         {Name = "X", URL = "https://x.com/ecukalla"},
         {Name = "LinkedIn", URL = "https://www.linkedin.com/in/ecukalla"},
         {Name = "Strava", URL = "https://strava.com/athletes/ecukalla"},
+        {Name = "Tags", URL = "/tags/", Weight = 3}
     ]
