@@ -17,6 +17,27 @@ theme = 'hyde'
   description = """
 No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my writing.
 <br>*By Edmond Cukalla"""
+
+  [[params.social]]
+    name = "x"
+    url = "https://twitter.com/ecukalla"
+    class = "fa-brands fa-x-twitter"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/ecukalla"
+    class = "fa-brands fa-github"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ecukalla"
+    class = "fa-brands fa-linkedin-in"
+
+  [[params.social]]
+    name = "strava"
+    url = "https://strava.com/athletes/ecukalla"
+    class = "fa-brands fa-strava"
+
   [params.meta]
     favicon = false
 
@@ -38,8 +59,5 @@ enableRobotsTXT = true
 
 [menus]
     main = [
-        {Name = "X", URL = "https://x.com/ecukalla"},
-        {Name = "LinkedIn", URL = "https://www.linkedin.com/in/ecukalla"},
-        {Name = "Strava", URL = "https://strava.com/athletes/ecukalla"},
         {Name = "Tags", URL = "/tags/", Weight = 3}
     ]

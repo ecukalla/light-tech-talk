@@ -1,19 +1,32 @@
 <aside class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1><a class="sidebar-nav-item" href='{{ "/" | relURL }}'>{{ .Site.Title }}</a></h1>
-      {{ with .Site.Params.description }}
-        <p>{{ . | markdownify }}</p>
-      {{ end }}
+
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <h1><a class="sidebar-nav-item" href='{{ "/" | relURL }}'>{{ .Site.Title }}</a></h1>
+            {{ with .Site.Params.description }}
+            <p>{{ . | markdownify }}</p>
+            {{ end }}
+        </div>
+
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href='{{ "/" | relURL }}'>Home</a>
+            {{ with .Site.Menus.main }}
+            {{ range . }}
+            <a class="sidebar-nav-item" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            {{ end }}
+        </nav>
+
+        <div class="social-icons">
+        {{/* This loops through the social links in your hugo.toml */}}
+        {{ range .Site.Params.social }}
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }} ">
+            <i class="{{ .class }}"></i>
+          </a>
+        {{ end }}
+        </div>
+        <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+
     </div>
 
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href='{{ "/" | relURL }}'>Home</a>
-      {{ with .Site.Menus.main }}
-        {{ range . }}
-          <a class="sidebar-nav-item" href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-      {{ end }}
-    </nav>
-  </div>
 </aside>
