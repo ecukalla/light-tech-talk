@@ -29,14 +29,20 @@ No complexity — just LTT!<br>Light, simple short stories which will not in any
     class = "fa-brands fa-github"
 
   [[params.social]]
+    name = "strava"
+    url = "https://strava.com/athletes/ecukalla"
+    class = "fa-brands fa-strava"
+
+  [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/ecukalla"
     class = "fa-brands fa-linkedin-in"
 
   [[params.social]]
-    name = "strava"
-    url = "https://strava.com/athletes/ecukalla"
-    class = "fa-brands fa-strava"
+    name = "instagram"
+    url = "https://www.instagram.com/ecukalla"
+    class = "fa-brands fa-instagram"
+
 
   [params.meta]
     favicon = false
