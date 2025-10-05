@@ -1,0 +1,37 @@
+{{ define "main" -}}
+<div class="tags-list">
+  <h1>All Tags</h1>
+
+  {{/* --- Pass 1: Find the length of the longest tag name --- */}}
+  {{ $maxLength := 0 }}
+  {{ range .Data.Terms.ByCount }}
+    {{ $len := len .Page.Title }}
+    {{ if gt $len $maxLength }}
+      {{ $maxLength = $len }}
+    {{ end }}
+  {{ end }}
+
+  {{/* --- Configuration for the padding --- */}}
+  {{ $dot := "." }}
+  {{ $extraPadding := 5 }}
+  {{/* Total width will be the longest tag's length + extra padding */}}
+  {{ $totalWidth := add $maxLength $extraPadding }}
+
+  <ul style="font-family: monospace; list-style-type: none; padding-left: 0;">
+    {{/* --- Pass 2: Render the list with calculated padding --- */}}
+    {{ range .Data.Terms.ByCount }}
+      <li>
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        {{- /* Calculate the number of dots needed for this specific tag */}}
+        {{- $dotsNeeded := sub $totalWidth (len .Page.Title) }}
+
+        {{- /* Print the dots */}}
+        {{- range seq $dotsNeeded }}{{ $dot }}{{ end }}
+
+        {{- /* Print the count */}}
+        {{- .Count -}}
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{- end }}
