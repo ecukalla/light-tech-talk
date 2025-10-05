@@ -18,6 +18,16 @@ theme = 'hyde'
 No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my writing.
 <br>*By Edmond Cukalla"""
 
+  [params.author]
+    name = "Edmond Cukalla"
+    sameAs = [
+        "https://twitter.com/ecukalla",
+        "https://github.com/ecukalla",
+        "https://strava.com/athletes/ecukalla",
+        "https://www.linkedin.com/in/ecukalla",
+        "https://www.instagram.com/ecukalla"
+    ]
+
   [[params.social]]
     name = "x"
     url = "https://twitter.com/ecukalla"
