@@ -18,6 +18,9 @@ theme = 'hyde'
 No complexity — just LTT!<br>Light, simple short stories which will not in any case attach you to my writing.
 <br>*By Edmond Cukalla"""
 
+  # Add this line to define a default site image
+  images = ["/images/social-preview.png"]
+
   [params.author]
     name = "Edmond Cukalla"
     sameAs = [
