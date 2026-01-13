@@ -26,9 +26,7 @@ No complexity — just LTT!<br>Light, simple short stories which will not in any
     sameAs = [
         "https://twitter.com/ecukalla",
         "https://github.com/ecukalla",
-        "https://strava.com/athletes/ecukalla",
-        "https://www.linkedin.com/in/ecukalla",
-        "https://www.instagram.com/ecukalla"
+        "https://www.linkedin.com/in/ecukalla"
     ]
 
   [[params.social]]
@@ -42,19 +40,9 @@ No complexity — just LTT!<br>Light, simple short stories which will not in any
     class = "fa-brands fa-github"
 
   [[params.social]]
-    name = "strava"
-    url = "https://strava.com/athletes/ecukalla"
-    class = "fa-brands fa-strava"
-
-  [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/ecukalla"
     class = "fa-brands fa-linkedin-in"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://www.instagram.com/ecukalla"
-    class = "fa-brands fa-instagram"
 
 
   [params.meta]
